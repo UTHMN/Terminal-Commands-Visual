@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "time", "sys", "os", "winsound", "turtle", "pyperclip", "requests", "pywhatkit"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PyTerminalVisual"
+version = "0.0.1"
+authors = [
+  { name="Boiabba", email="kingvcheese@gmail.com" },
+]
+description = "A terminal for visual projects, Supports linux but more features on windows"
+readme = "LISCENSE"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE",
+    "Operating System :: Windows/Linux",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/UTHMN/Terminal-Commands-Visual"
+"Bug Tracker" = "https://github.com/UTHMN/Terminal-Commands-Visual/issues"
